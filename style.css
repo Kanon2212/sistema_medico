@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+body {
+    padding: 5px auto;
+    font-family: 'El Messiri', sans-serif;
+    background: url(img/bg3.jpg) fixed no-repeat;
+    background-size: cover;
+}
+
+.container, .container-fluid {
+    background-color: white;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header_top {
+    background: url(img/header_img4.jpg) fixed no-repeat;
+    width: 100%;
+    height: 323px;
+    background-size: 100% 80% !important;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.header_top img {
+    border-radius: 50%;
+}
+
+.menu {
+    background-color: #1f1f21 !important;
+    width: auto;
+    height: 35px;
+}
+
+.nav {
+    min-height: 37px !important;
+}
+
+.navbar-default {
+    background-color: #1f1f21 !important;
+    border-color: #e7e7e7;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0 5px;
+    list-style: none;
+    text-align: right;
+}
+
+.menu ul li {
+    float: left;
+    border-right: 1px solid #fff;
+    position: relative;
+    text-align: right;
+}
+
+.menu ul li:last-child {
+    border-right: 0;
+}
+
+.menu ul li a {
+    background: rgba(20, 21, 23, 0.99);
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.menu ul li ul {
+    position: absolute;
+    left: -99999px;
+    z-index: 10000000;
+}
+
+.menu ul li:hover ul {
+    left: 0;
+}
+
+.menu ul li ul li {
+    float: none;
+    border-top: 1px solid #fff;
+    width: 200px;
+    border-right: 0;
+    border-left: 0;
+}
+
+.menu ul li ul li:first-child {
+    border-top: 0;
+}
+
+.menu ul li ul li:last-child {
+    border-bottom: 0;
+}
+
+.menu ul li ul li a {
+    background: rgba(34, 35, 37, 0.99);
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.menu ul li ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media screen and (max-width: 720px) {
+    .menu ul li {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 520px) and (min-width: 320px) {
+    .menu ul li {
+        float: none;
+    }
+}
+
+.content {
+    background-color: white;
+    color: #2b2121;
+    padding: 20px;
+}
+
+.fsection {
+    background-color: rgba(20, 21, 23, 0.99);
+    padding: 20px;
+    color: #fff;
+}
+
+.share_img img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.sliderImg img {
+    width: 200px;
+    height: 250px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: khaki;
+    margin: 10px auto;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th {
+    background-color: #1e1616;
+    color: white;
+}
+
+td {
+    padding: 3px;
+    text-align: center;
+    background-color: white;
+    color: #000;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #c5b3b3;
+}
+
+.stick {
+    position: fixed;
+    top: 0;
+    z-index: 9999999999;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+option,
+textarea {
+    text-align: initial;
+    width: 223px;
+    box-shadow: 1px 1px 1px #2d2a2a;
+    height: 40px;
+    line-height: normal;
+    background-color: ivory;
+    margin-left: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 4px 6px;
+    float: right;
+}
+
+input[type="submit"] {
+    margin-right: -709px;
+    margin-top: 25px;
+}
+
+select, option {
+    height: 35px;
+}
+
+label {
+    cursor: pointer;
+    float: right;
+}
+
+.box {
+    width: 220px;
+    height: 220px;
+    border-radius: 0 0 20px 0;
+    background-color: rgb(2, 2, 29) !important;
+    margin-left: 135px;
+    margin-bottom: 35px;
+    opacity: 0;
+}
+
+.box:hover {
+    opacity: 1;
+    border: 2px solid red;
+    font-size: 10px;
+}
+
+.box h4 {
+    padding-top: 83px;
+    padding-left: 33px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+}
+
+.formstyle {
+    box-shadow: 4px 5px 3px 2px black;
+}
+
+.box1,
+.box2 {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: rgb(2, 2, 29) !important;
+    margin-left: 135px;
+    margin-bottom: 35px;
+    opacity: 0;
+}
+
+.box1:hover {
+    color: #fff;
+    font-size: 20px;
+}
+
+.box1 h4,
+.box2 h4 {
+    padding-top: 83px;
+    padding-left: 33px;
+    color: white;
+}
+
+a:active {
+    background-color: #fff;
+}

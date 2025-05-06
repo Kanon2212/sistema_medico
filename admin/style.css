@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+body {
+    font-family: 'El Messiri', sans-serif;
+    background: url(../img/bg3.jpg) fixed no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header_top {
+    background: url(../img/header_img4.jpg) fixed no-repeat;
+    width: 100%;
+    height: 323px;
+    background-size: cover;
+    font-family: 'El Messiri', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header_top img {
+    border-radius: 50%;
+}
+
+.menu {
+    background-color: rgba(34, 35, 37, 0.99) !important;
+    width: auto;
+    height: 35px;
+}
+
+.navbar-default {
+    background-color: #9191e0 !important;
+    border-color: #e7e7e7;
+}
+
+.nav {
+    min-height: 37px !important;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 3px 6px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    border-right: 1px solid #fff;
+    position: relative;
+}
+
+.menu ul li:last-child {
+    border-right: 0;
+}
+
+.menu ul li a {
+    background: rgba(34, 35, 37, 0.99) !important;
+    display: block;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    background: rgb(46, 49, 142);
+    color: #fff;
+}
+
+
+.menu ul li ul {
+    position: absolute;
+    left: -99999px;
+    z-index: 1000;
+}
+
+.menu ul li:hover ul {
+    left: 0;
+}
+
+.menu ul li ul li {
+    float: none;
+    border-top: 1px solid #fff;
+    width: 200px;
+}
+
+.menu ul li ul li a {
+    background: rgba(34, 35, 37, 0.99);
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu ul li ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.content {
+    background-color: white;
+    color: #2b2121;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fsection {
+    background-color: rgba(20, 21, 23, 0.99);
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.share_img img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.sliderImg img {
+    margin: 20px;
+    border: 2px solid #000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+    background-color: darkred;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+}
+
+th {
+    background-color: red;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.stick {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="file"], input[type="date"], select, option, textarea {
+    text-align: initial;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 1px 1px 1px #2d2a2a;
+    height: 35px;
+    background-color: ivory;
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+input[type="submit"] {
+    margin: 25px 0;
+    padding: 10px 20px;
+    background-color: #29b6f6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #007bb5;
+}
+
+label {
+    cursor: pointer;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.btn {
+    padding: 1px 9px !important;
+    border: 1px solid !important;
+}
+
+.box {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.58);
+    margin: 35px auto;
+    opacity: 0.70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box:hover {
+    opacity: 1;
+    border: 2px solid red;
+}
+
+.box h4 {
+    color: white;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+}
+
+.formstyle {
+    box-shadow: 4px 5px 3px 2px black;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .header_top {
+        height: 200px;
+        background-size: cover;
+    }
+    
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    .menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    .fsection {
+        padding-left: 0;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="file"], input[type="date"], select, option, textarea {
+        width: calc(100% - 20px);
+        margin: 10px auto;
+        float: none;
+        margin-right: auto;
+    }
+
+    input[type="submit"] {
+        margin-right: auto;
+        display: block;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .header_top {
+        height: 150px;
+    }
+    
+    input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="file"], input[type="date"], select, option, textarea {
+        width: 100%;
+    }
+    
+    input[type="submit"] {
+        width: 100%;
+    }
+}
